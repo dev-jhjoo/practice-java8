@@ -29,5 +29,5 @@ bin/
 .DS_Store
 
 ### IDEA
-*.iml
-.idea
+practice-java8.iml
+.idea/
