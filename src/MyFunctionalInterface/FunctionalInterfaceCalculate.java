@@ -1,9 +1,10 @@
-package MyLambda;
+package MyFunctionalInterface;
 
 import javax.management.BadAttributeValueExpException;
 
-public class LambdaCalculate {
+public class FunctionalInterfaceCalculate {
     public void run() throws Exception {
+        System.out.println("FunctionalInterfaceCalculate start");
         this.execute(2,3, CalculateType.ADD);
         this.execute(2,3, CalculateType.MULTI);
         this.execute(4,2, CalculateType.DIV);

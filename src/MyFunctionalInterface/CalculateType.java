@@ -1,4 +1,4 @@
-package MyLambda;
+package MyFunctionalInterface;
 
 public enum CalculateType {
 
