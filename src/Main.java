@@ -2,6 +2,7 @@ import MyDateTime.DateTimeMain;
 import MyDefaultMethod.DefaultMethodMain;
 import MyFunctionalInterface.FunctionalInterfaceCalculate;
 import MyLambda.LambdaMain;
+import MyOptional.OptionalMain;
 import MyStream.StreamMain;
 
 public class Main {
@@ -11,5 +12,6 @@ public class Main {
         new StreamMain().run();
         new DateTimeMain().run();
         new DefaultMethodMain().run();
+        new OptionalMain().run();
     }
 }
